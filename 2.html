@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Soal Nomor 1</title>
+
+        <link rel="stylesheet" href="styles/main.css">
+        <link rel="stylesheet" href="styles/2.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <div>Soal Nomor</div>
+                <div class="list">
+                    <a href='./1.html'>1</a>
+                    <a class="active">2</a>
+                    <a href='./3.html'>3</a>
+                </div>
+            </div>
+            <div class="content">
+                <div class="question">
+                    <div class="number">2.</div>
+                    <div>Buatlah sebuah function untuk mencari median dari sebuah array.</div>
+                </div>
+                <div class="params__container" style="margin-top: 60px;">
+                    <div style="margin-bottom: 10px;">Parameters :</div>
+                    <div id="params__list">
+                    </div>
+                </div>
+                <div class="input__container">
+                    <input id="input" type="number">
+                    <div onclick="OnAdd()">Add</div>
+                    <div onclick="OnRemove()">Remove Last</div>
+                    <div onclick="OnRemoveAll()">Remove All</div>
+                </div>
+                <div class="button__container" style="margin-top: 30px;">
+                    <div onclick="OnSubmit()">Submit</div>
+                    <div onclick="OnReset()">Reset</div>
+                </div>
+                <div class="output__container">
+                    <div>Output :</div>
+                    <div id='output'></div>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script src="2.js"></script>
+</html>
